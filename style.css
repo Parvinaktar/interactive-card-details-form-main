@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightgrayishviolet: hsl(270, 3%, 87%);
+  --Darkgrayishviolet: hsl(279, 6%, 55%);
+  --Verydarkviolet: hsl(278, 68%, 11%);
+  --Lineargradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+  --Red: hsl(0, 100%, 66%);
+}
+body {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+.main {
+  height: 100vh;
+  display: flex;
+}
+.first-part {
+  width: 40%;
+  background-image: url(./images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.clr-card {
+  position: absolute;
+  top: 50%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+}
+.fst-card {
+  height: 230px;
+  width: 400px;
+
+  background-image: url(./images/bg-card-front.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding: 30px;
+}
+.div-f {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: var(--White);
+}
+.circle {
+  display: flex;
+  align-items: center;
+}
+.fst-card p {
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--White);
+}
+.lr {
+  margin-top: 70px;
+}
+.lr div {
+  display: flex;
+  justify-content: space-between;
+
+  color: var(--White);
+}
+.lr div h6 {
+  font-size: 12px;
+}
+.lr p {
+  font-size: px;
+  color: var(--White);
+  letter-spacing: 3px;
+}
+.div-s {
+  height: 17px;
+  width: 17px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.sec-card {
+  height: 230px;
+  width: 400px;
+  background-image: url(./images/bg-card-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 70px;
+  margin-top: 30px;
+  display: flex;
+
+  justify-content: right;
+}
+.sec-card div {
+  margin-right: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 100px;
+  color: var(--White);
+}
+.sec-part {
+  width: 60%;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec-part i {
+  padding: 5px 12px;
+  border-radius: 50%;
+  background: rgb(100, 72, 254);
+  background: linear-gradient(
+    141deg,
+    rgba(100, 72, 254, 1) 0%,
+    rgba(96, 5, 148, 1) 100%
+  );
+  font-size: 30px;
+  color: var(--White);
+  margin-bottom: 20px;
+}
+.sec-part h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.sec-part p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--Darkgrayishviolet);
+  margin-bottom: 30px;
+}
+.sec-part a {
+  background-color: var(--Verydarkviolet);
+  height: 35px;
+  width: 300px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: var(--White);
+  text-transform: capitalize;
+}
